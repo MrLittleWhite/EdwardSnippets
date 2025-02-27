@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lyzassociate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static const char &lt;#object#&gt;AssociatedKey = '\0';
+- (void)set&lt;#Object#&gt; {
+    objc_setAssociatedObject(self, &amp;&lt;#replaceKey#&gt;, &lt;#object#&gt;, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- &lt;#object#&gt; {
+    return objc_getAssociatedObject(self, &amp;&lt;#replaceKey#&gt;);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A5AF9D5-59A0-42D5-B800-C784982906CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AssociatedObject</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

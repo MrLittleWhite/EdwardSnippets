@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lyzcustomview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupUI()
+        setupConstraint()
+    }
+
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupUI()
+        setupConstraint()
+    }
+    
+    func setupUI() {
+        addSubview(&lt;#content#&gt;)
+        addSubview(&lt;#content#&gt;)
+        addSubview(&lt;#content#&gt;)
+    }
+    
+    func setupConstraint() {
+        &lt;#constraint#&gt;
+    }
+    
+    // MARK: - dataSource
+    public var dataSource: &lt;#protocol#&gt;? {
+        didSet {
+            &lt;#set data#&gt;
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>42B401E8-43C6-49C6-BDF1-913D449B455A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>custom view</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

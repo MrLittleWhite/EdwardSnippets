@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lyzyymodel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (nullable NSDictionary&lt;NSString *, id&gt; *)modelCustomPropertyMapper {
+    return &lt;#map#&gt;;
+}
+
++ (nullable NSArray&lt;NSString *&gt; *)modelPropertyBlacklist {
+    return &lt;#array#&gt;;
+}
+
+- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+    &lt;#custom model#&gt;
+    return YES;
+}
+
+- (BOOL)modelCustomTransformToDictionary:(NSMutableDictionary *)dic {
+    &lt;#custom dictionary#&gt;
+    return YES;
+}
+
+- (instancetype)yy_modelCopy {
+    &lt;#type#&gt; *&lt;#model#&gt; = [super yy_modelCopy];
+    &lt;#custom model#&gt;
+    return &lt;#model#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9CE2CCBD-BE0C-408D-858C-F4EC21B8D48E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom YYModel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

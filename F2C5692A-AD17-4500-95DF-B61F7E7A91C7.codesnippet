@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lyztable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private(set) lazy var tableView: LHTableView = {
+        let tv = LHTableView(frame: .zero, tableStyle: .insetGrouped)
+        tv.contentInsetAdjustmentBehavior = .never
+        //tv.backgroundView = bgView
+        tv.backgroundColor = .clear
+        tv.separatorStyle = .none
+        tv.delegate = self
+        tv.dataSource = self
+    tv.register(&lt;#CellType#&gt;.self, forCellReuseIdentifier: "&lt;#CellType#&gt;")
+        return tv
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F2C5692A-AD17-4500-95DF-B61F7E7A91C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create tableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

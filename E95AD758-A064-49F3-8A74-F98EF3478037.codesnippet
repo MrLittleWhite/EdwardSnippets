@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lyzcreatemodel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import ObjectMapper
+
+struct &lt;#model#&gt;: Mappable {
+    var &lt;#property1#&gt;: &lt;#type#&gt;
+    var &lt;#property2#&gt;: &lt;#type#&gt;
+    var &lt;#property3#&gt;: &lt;#type#&gt;
+    
+    init() {
+        
+    }
+    
+    init?(map: Map) {
+
+    }
+
+    mutating func mapping(map: Map) {
+        &lt;#property1#&gt; &lt;- map["&lt;#property1#&gt;"]
+        &lt;#property2#&gt; &lt;- map["&lt;#property2#&gt;"]
+        &lt;#property3#&gt; &lt;- map["&lt;#property3#&gt;"]
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E95AD758-A064-49F3-8A74-F98EF3478037</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
