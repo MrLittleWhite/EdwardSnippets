@@ -3,43 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lyzcustomview</string>
+	<string>cppb</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setupUI];
-        [self setupContraints];
-    }
-    return self;
-}
-
-- (void)setupUI {
-    &lt;#statements#&gt;
-}
-
-- (void)setupContraints {
-    &lt;#statements#&gt;
-}
-
-- (void)updateConstraints {
-    [super updateConstraints];
-}</string>
+	<string>@property (nonatomic, copy) void (^&lt;#block#&gt;)(void);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>898630BA-1135-488D-BBF4-6A8566CB417C</string>
+	<string>FEE37E58-6B1A-47A4-B619-8007EF17DDD0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>custom view</string>
+	<string>block property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
