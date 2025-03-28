@@ -14,7 +14,7 @@
     label.font = [UIFont pingFangRegular:&lt;#(CGFloat)#&gt;];
     label.textColor = &lt;#color#&gt;;
     [label setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
-    [label setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical]
+    [label setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     _&lt;#name#&gt; = label;
 }
 return _&lt;#name#&gt;;</string>

@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cppb</string>
+	<string>lyzclearnav</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) void (^&lt;#block#&gt;)(void);</string>
+	<string>    public override func lh_configNavigationController(_ navigationController: UINavigationController!) {
+        super.lh_configNavigationController(navigationController)
+        navigationController.navigationBar.setBarBackgroundColor(.clear)
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FEE37E58-6B1A-47A4-B619-8007EF17DDD0</string>
+	<string>07614CD5-02BB-4F40-95F6-557153F813CB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>lyzclearnav</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block property</string>
+	<string>clear navigationbar</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
